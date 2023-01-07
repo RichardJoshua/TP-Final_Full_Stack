@@ -13,10 +13,12 @@ import NovedadesPage from './pages/NovedadesPage';
 function App() {
   return (
     <div className="App">
+
       <Header/>
 
       <BrowserRouter>
         <Nav/>
+        
         <Routes>
           <Route path="/" element={<HomePage/>} />
           <Route path="/nosotros" element={<NosotrosPage/>} />
