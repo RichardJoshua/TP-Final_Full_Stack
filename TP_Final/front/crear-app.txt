@@ -1,0 +1,7 @@
+Creamos la carpeta con el nombre de nuestro proyecto
+creamos dos carpetas mas, una Front y Back
+Ingresamos a Front, e intalamos:
+npx create-react-app .
+npm i react-router-dom
+npm i axios
+npm start
