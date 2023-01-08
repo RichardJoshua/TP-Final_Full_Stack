@@ -15,16 +15,16 @@ const Header = (props) => {
                                 {/* <img src="..." class="d-block w-100" alt="..."> */}
                                 <img src="images/home/main-1.jpeg"  alt="Transportes X"/>
                                 <div class="carousel-caption d-none d-md-block">
+                                    {/* <h5 style="font-family: 'Pacifico', cursive;">Coffee Shop</h5> */}
                                     <h5>Coffee Shop</h5>
                                     <p>Some representative placeholder content for the first slide.</p>
                                 </div>
                             </div>
                             <div class="carousel-item" data-bs-interval="2000" style={{height: "600px"}}>
-                                {/* <img src="..." class="d-block w-100" alt="..."> */}
                                 <img src="images/home/main-2.jpeg" alt="Transportes X"/>
-                                {/* <img src="images/home/main-2.jpeg" width="100" height="100" alt="Transportes X"/> */}
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>First slide label</h5>
+                                    {/* <h5 style={{font-family: "'Pacifico', cursive"}}>First slide label</h5> */}
+                                    <h5>Coffee Lindo</h5>
                                     <p>Some representative placeholder content for the first slide.</p>
                                 </div>
                             </div>

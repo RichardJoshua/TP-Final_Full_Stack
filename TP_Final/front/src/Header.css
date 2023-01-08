@@ -14,3 +14,8 @@ header h1 {
     bottom: .8em;
     margin: 0;
 }
+
+.carousel-caption h5 {
+    font-family: 'Pacifico', cursive;
+    font-size: 100px;
+}
