@@ -14,11 +14,11 @@ function App() {
   return (
     <div className="App">
 
-      <Header/>
+      {/* <Header/> */}
 
       <BrowserRouter>
         <Nav/>
-        
+        <Header/> 
         <Routes>
           <Route path="/" element={<HomePage/>} />
           <Route path="/nosotros" element={<NosotrosPage/>} />

@@ -10,8 +10,8 @@ const Header = (props) => {
                     <h1>Transportes X</h1> */}
                     
                     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="1000">
+                        <div class="carousel-inner">         
+                            <div class="carousel-item active" data-bs-interval="20000" style={{height: "600px"}}>
                                 {/* <img src="..." class="d-block w-100" alt="..."> */}
                                 <img src="images/home/main-1.jpeg"  alt="Transportes X"/>
                                 <div class="carousel-caption d-none d-md-block">
@@ -19,7 +19,7 @@ const Header = (props) => {
                                     <p>Some representative placeholder content for the first slide.</p>
                                 </div>
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
+                            <div class="carousel-item" data-bs-interval="2000" style={{height: "600px"}}>
                                 {/* <img src="..." class="d-block w-100" alt="..."> */}
                                 <img src="images/home/main-2.jpeg" alt="Transportes X"/>
                                 {/* <img src="images/home/main-2.jpeg" width="100" height="100" alt="Transportes X"/> */}
