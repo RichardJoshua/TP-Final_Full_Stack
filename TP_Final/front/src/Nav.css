@@ -2,6 +2,7 @@ nav {
     background-color: #502929;
     /* background-color: #6da9ed; */
     /* margin-bottom: 2em; */
+    padding-top: 15px;
     margin-bottom: 0;
     height: 60px;
 }
@@ -34,3 +35,4 @@ nav ul li a.activo {
     /* background: #4c76a5; */
     background: #94117e;
 }
+
