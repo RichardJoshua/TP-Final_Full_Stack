@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+/* #capuchino {
+  background-color:whitesmoke
+} */
+
 #gustos, #capuchino {
   margin-top: 50px;
 }
@@ -31,11 +35,13 @@ code {
 }
 
 #especialidades h2 {
+  color: #502929;
   font-family: 'Pacifico', cursive;
   font-size: 50px;
 }
 
 #especialidades h3 {
+  color: #502929;
   margin-top:  50px;
 }
 
