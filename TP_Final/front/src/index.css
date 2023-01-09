@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#gustos, #capuchino {
+  margin-top: 50px;
+}
+
+#capuchino h3 {
+  margin: 20px;
+}
+
+#especialidades {
+  background-image: url("../public/images/home/fondo.jpg");
+  /* margin: 50px;*/
+  padding: 80px; 
+}
+
+.fa-solid {
+  color: #d5d5d5;
+}
+
+#especialidades h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+}
+
+#especialidades h3 {
+  margin-top:  50px;
+}
+
