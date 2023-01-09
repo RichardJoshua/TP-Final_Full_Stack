@@ -3,7 +3,7 @@ import '../../Header.css';
 
 const Header = (props) => {
     return(
-        <header>
+        <header style={{zIndex: "-1", position: "relative"}}>
             <div className="holder">
                 <div>
                     {/* <img src="images/logo.png" with="100" alt="Transportes X"/>
