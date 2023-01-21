@@ -4,7 +4,7 @@ import '../../Footer.css';
 const Footer = (props) => {
     return(
         <footer>
-            <p>Derechos reservados. Transporte X año</p>
+            <p>Derechos reservados. Coffee Lindo</p>
         </footer>
     );
 }
