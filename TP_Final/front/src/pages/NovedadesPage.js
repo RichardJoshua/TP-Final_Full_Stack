@@ -1,9 +1,9 @@
 // import '../styles/pages/NovedadesPage.css';
 // import React from 'react';
 
-import {useState, useEffect} from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
-import NovedadItem from '../componentes/novedades/NovedadItem';
+import NovedadItem from '../components/novedades/Novedaditem';
 
 const NovedadesPage = (props) => {
     const [loading, setLoading] = useState(false); 
