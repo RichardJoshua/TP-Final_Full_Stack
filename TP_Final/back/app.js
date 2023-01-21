@@ -5,14 +5,15 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 require('dotenv').config();
-
 var session = require('express-session');
+var fileUpload = require('express-fileupload');
+var cors = require('cors');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var loginRouter = require('./routes/admin/login');
 var adminRouter = require('./routes/admin/novedades');
-
+var apiRouter = require('./routes/api');
 var app = express();
 
 // view engine setup
@@ -54,8 +55,16 @@ secured = async (req, res, next) => {
   }
 }
 
+app.use(fileUpload({
+  useTempFiles: true,
+  tempFileDir: '/tmp'
+}));
+
+app.use('/', indexRouter);
+app.use('/users', usersRouter);
 app.use('/admin/login', loginRouter);
 app.use('/admin/novedades', secured, adminRouter);
+app.use('/api',cors(), apiRouter);
 
 // app.post('/ingresar', function(req, res){
 
