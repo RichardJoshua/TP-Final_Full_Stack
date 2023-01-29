@@ -37,12 +37,12 @@ router.get('/novedades', async function(req, res, next) {
     const mail = {
       to: 'esp8266.joshua@gmail.com',
       subject: 'Contacto desde la Web',
-      html: `${req.body.nombre} se contacto a traves y quiere mas info a este correo :${req.body.email} <br> 
+      html: `${req.body.nombre} se contacto a traves de la pag Web y quiere mas info a este correo :${req.body.email} <br> 
       Ademas, hizo el siguiente comentario: ${req.body.mensaje} <br> Su tel es: ${req.body.telefono}`
 
     }
     
-    const transport = nodemailer.createTransport({
+    const transporter = nodemailer.createTransport({
         host: process.env.SMTP_HOST,
         port: process.env.SMTP_PORT,
         auth: {
@@ -58,5 +58,5 @@ router.get('/novedades', async function(req, res, next) {
         message:'Mensaje enviado correctamente',
     });
   });
-  
+
   module.exports = router;

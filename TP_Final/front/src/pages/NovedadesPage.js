@@ -1,4 +1,4 @@
-// import '../styles/pages/NovedadesPage.css';
+import '../styles/pages/NovedadesPage.css';
 // import React from 'react';
 
 import { useState, useEffect } from 'react';
