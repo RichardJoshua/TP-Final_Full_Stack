@@ -23,7 +23,7 @@ const NovedadesPage = (props) => {
 
     return (
         <section className="holder">
-            <h2>Novedades</h2>
+            <h2 style={{marginTop: "30px", marginBottom: "45px;"}}>Novedades</h2>
             {loading ? (
                 <p>Cargando...</p>
             ) : (

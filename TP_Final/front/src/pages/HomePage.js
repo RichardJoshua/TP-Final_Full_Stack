@@ -157,7 +157,7 @@ const HomePage = (props) => {
             </div>
 
 
-            <div className="homeimg">
+            {/* <div className="homeimg">
                 <img src="images/home/img01.jpg" alt="avion" />
             </div>
             <div className="columnas">
@@ -176,7 +176,7 @@ const HomePage = (props) => {
                         <span className="autor">Juan Perez</span>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </main>
     );
 }
